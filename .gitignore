@@ -1,0 +1,12 @@
+.DS_Store
+.vscode/
+*.dSYM/
+
+# Binaries generated from local C builds
+teclado
+tabuada
+*.out
+*.o
+
+# Temporarily ignored: unreadable file on filesystem (index timeout)
+02.c
