@@ -37,12 +37,12 @@ int main() {
         }
     
     }
-    
+
 //imprimir a matriz n
     printf("\nMatriz n:\n");
     for(i=0;i<lin;i++){
         for(j=0;j<col;j++){
-            printf("%d ", n[i][j]);
+            printf("%4d ", n[i][j]);
         }
         printf("\n");
     }
