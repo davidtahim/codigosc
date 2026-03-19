@@ -2,7 +2,7 @@
 
 int main(){
     int matriz[2][2];
-    int i, j;
+    int i, j, soma=0;
 
     // loop de leitura da matriz
 
@@ -13,13 +13,12 @@ int main(){
         }
     }
 
-    //loop de impressão da matriz
-    printf("\nMatriz digitada:\n");
+    //loop de soma da matriz
     for(i=0;i<2;i++){
         for(j=0;j<2;j++){
-            printf("%4d ", matriz[i][j]);
+           soma += matriz[i][j];
         }
-        printf("\n");
     }
+    printf("Soma dos elementos da matriz: %d\n", soma);
     return 0;
 }
